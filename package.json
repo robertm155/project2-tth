@@ -23,6 +23,10 @@
     "phaser3-project-template": "^1.0.9",
     "sequelize": "^5.21.6"
   },
+  "production": {
+    "use_env_variable": "JAWSDB_URL",
+    "dialect": "mySQL"
+  },
   "engines": {
     "node": "10.x"
   },
