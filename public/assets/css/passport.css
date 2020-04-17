@@ -1,0 +1,44 @@
+form.signup,
+form.login {
+  margin-top: 50px;
+}
+
+@font-face {
+  font-family: fantasyFont;
+  src: url(../font/AncientModernTales-a7Po.ttf);
+}
+body {
+  background-image: url("../game-art/bg/title-background-hi-res.png");
+  background-size: cover;
+  font-family: fantasyFont;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color:transparent;
+}
+
+#changeColor{
+  color: #ffffff;
+}
+
+
+
+@font-face {
+  font-family: fantasyFont;
+  src: url(../font/AncientModernTales-a7Po.ttf);
+}
+body {
+  background-image: url("../game-art/bg/title-background-hi-res.png");
+  background-size: cover;
+  font-family: fantasyFont;
+  color: #ffffff;
+}
+
+.navbar {
+  background-color:transparent;
+}
+
+#changeColor{
+  color: #ffffff;
+} 

@@ -1,0 +1,44 @@
+@font-face {
+    font-family: fantasyFont;
+    src: url(../font/AncientModernTales-a7Po.ttf);
+  }
+body {
+    background-image: url("../game-art/bg/title-background-hi-res.png");
+    background-size: cover;
+    font-family: fantasyFont;
+}
+
+#loginNav{
+  color: #ffffff;
+}
+
+.navbar {
+  background-color:transparent;
+}
+
+canvas {
+  margin-left: 18%;
+  margin-right: 18%;
+  border-style: solid;
+  border-color: black;
+  border-width: 4px;
+}
+
+#dbName {
+  pointer-events: none;
+}
+#dbClass {
+  pointer-events: none;
+}
+#dbHP {
+  pointer-events: none;
+}
+#dbStrength {
+  pointer-events: none;
+}
+#dbDefense {
+  pointer-events: none;
+}
+#dbSpeed {
+  pointer-events: none;
+}

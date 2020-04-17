@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand text-white" id="title-link">First Fantasy</a>
+          <span class="navbar-text">
+            <a class=".text-white" id="loginNav">Login</a>
+          </span>
+        </div>
+    </nav>
+
+
+
+
+      <div class="container mt-3">
+        <div class="row">
+          <div class="col-sm-3"></div>
+          <div class="col-sm-6"><img id="charaSprite" src="./assets/game-art/sprites/player/default.png" style="width:512px"></div>
+          <div class="col-sm-3"></div>
+        </div>
+      </div>
+
+      <div class="container mt-3">
+        <form>
+          <div class="row">
+
+            <div class="col-sm-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text name" id="inputGroup-sizing-default">Name</span>
+                    </div>
+                    <input type="text" id="name" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" value="Morgan">
+                  </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <button class="btn btn-outline-secondary class" type="button">Class</button>
+                    </div>
+                    <select class="custom-select" id="class">
+                      <option selected>Pleb</option>
+                      <option value="mercenary">Mercenary</option>
+                      <option value="knight">Knight</option>
+                      <option value="mage">Mage</option>
+                      <option value="assassin">Assassin</option>
+                    </select>
+                  </div>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                      <span class="input-group-text" id="inputGroup-sizing-default">Weapon</span>
+                    </div>
+                    <input type="text" id="weapon" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" readonly value="Fists of Justice">
+                  </div>
+            </div>
+
+          </div>
+
+      </div>
+
+        <div class="container mt-3">
+          <div class="row">
+
+            <div class="col-sm-3">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-default">Hit Points</span>
+                </div>
+                <input type="number" id="hp" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" readonly value="300">
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-default">Strength</span>
+                </div>
+                <input type="number" id="strength" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" readonly value="60">
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text" id="inputGroup-sizing-default">Defense</span>
+                </div>
+                <input type="number" id="defense" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" readonly value="60">
+              </div>
+            </div>
+
+            <div class="col-sm-3">
+              <div class="input-group mb-3">
+                <div class="input-group-prepend">
+                  <span class="input-group-text speed" id="inputGroup-sizing-default">Speed</span>
+                </div>
+                <input type="number" id="speed" class="form-control" aria-label="Default" aria-describedby="inputGroup-sizing-default" readonly value="60">
+              </div>
+            </div>
+            
+          </div>
+        </div>
+      
+        <div class="container mt-3">
+          <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+              <button type="add-btn submit" class="add-btn btn btn-outline-success col-sm-12 generateChara">Create</button>
+            </div>
+            <div class="col-sm-3"></div>
+          </div>
+
+  </form>
+      </div>
+    
+
+    
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <script src="./assets/js/index.js"></script>
+      <script src="./assets/js/add.js"> </script>
+      
+</body>
+</html>
